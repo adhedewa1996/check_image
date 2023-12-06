@@ -1,0 +1,51 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "[DEV]iNews Debug",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                // "--flavor",
+                // "Development",
+                // "--dart-define=ENVIRONMENT=Development",
+                // "build --delete-conflicting-outputs",
+            ],
+        },
+        {
+            "name": "[DEV]iNews Release",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--release",
+                "--flavor",
+                "Development",
+                "--dart-define=ENVIRONMENT=Development",
+            ]
+        },
+        {
+            "name": "[PROD]iNews Debug",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor",
+                "Production",
+                "--dart-define=ENVIRONMENT=Production",
+            ]
+        },
+        {
+            "name": "[PROD]iNews Release",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--release",
+                "--flavor",
+                "Production",
+                "--dart-define=ENVIRONMENT=Production",
+            ]
+        },
+    ]
+}

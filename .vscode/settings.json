@@ -1,0 +1,13 @@
+{
+    "dart.lineLength": 200,
+    "editor.formatOnSave": true,
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "cmake.configureOnOpen": false,
+    "dart.flutterSdkPath": "/Users/gilang/Downloads/flutter/bin",
+    "dart.sdkPath": "/usr/local/Cellar/dart@2.16/2.16.2/libexec",
+    "dart.sdkPaths": [
+        "/usr/local/Cellar/dart@2.16/2.16.2/libexec"
+    ],
+    "cmake.sourceDirectory": "/Users/wahyuadhietriwibowo/Desktop/adhe/expore/check image/check_image",
+}

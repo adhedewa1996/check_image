@@ -1,0 +1,88 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "[DEV] build apk debug",
+            "type": "shell",
+            "command": "flutter build apk --debug --flavor Development",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "[DEV] build apk release",
+            "type": "shell",
+            "command": "flutter build apk --release --flavor Development",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "[PROD] build apk debug",
+            "type": "shell",
+            "command": "flutter build apk --debug --flavor Production",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "[PROD] build apk release",
+            "type": "shell",
+            "command": "flutter build apk --release --flavor Production",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "[PROD] build appbundle",
+            "type": "shell",
+            "command": "flutter build appbundle --flavor Production",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "[DEV] build IOS Debug",
+            "type": "shell",
+            "command": "flutter build ipa --debug --flavor Development",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "[PROD] build IOS Debug",
+            "type": "shell",
+            "command": "flutter build ipa --debug --flavor Production",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "[DEV] build IOS Release",
+            "type": "shell",
+            "command": "flutter build ipa --release --flavor Development",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "[PROD] build IOS Release",
+            "type": "shell",
+            "command": "flutter build ipa --release --flavor Production",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
