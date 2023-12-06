@@ -5,7 +5,10 @@ class LoadImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Image.asset('lib/assets/ic-facebook.png');
+    return Image.asset(
+      'lib/assets/ic-facebook.png',
+      package: 'check_image',
+    );
   }
 }
 
